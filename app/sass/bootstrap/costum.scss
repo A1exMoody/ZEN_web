@@ -1,0 +1,7 @@
+$body-bg: white;
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 6: ($spacer * 5.625), 7: ($spacer * 6.625), 8: ($spacer * 7.625), 9: ($spacer * 10.225), 10: ($spacer * 16.225), 11: ($spacer * 19.325)), $spacers);
+// This variable affects the `.h-*` and `.w-*` classes.
+@import "../../../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,175 @@
+$bg-main:#ffffff;
+//Body CSS
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $bg-main;
+    font-family: "Nunito";
+    font-weight: 400;
+    font-style: normal;
+}
+
+#first_wrapp {
+    a img .navbar-brand {
+        width: 38px;
+        height: 38px;
+    }
+    a.nav-link {
+        color: $black;
+        line-height: 21.82px;
+    }
+    .btn_get_app {
+        background-color: white;
+        border: 1px solid #000000;
+        border-radius: 48px;
+        padding: 12px 32px 11px 32px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .first_items {
+        .intro_text {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        img.play_img {
+            width: 23px;
+            height: 23px;
+        }
+    }
+    .second_items {
+        p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}
+
+#second_wrapp {
+    .thd_items {
+        width: 366px;
+        p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}
+
+#thd_wrapp {
+    .four_items {
+        width: 451px;
+        p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+    .five_items {
+        width: 584px;
+        p {
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .show_more_btn {
+            padding: 12px 32px 11px 32px;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 48px;
+            background-color: #ffffff;
+        }
+    }
+}
+
+#four_wrapper {
+    .fives_items_wrapp {
+        width: 475px;
+        line-height: 26px;
+    }
+    .register {
+        margin-left: 380px;
+    }
+}
+
+#five_wrapp {
+    .six_items_wrapp {
+        .text_wrapp_items {
+            width: 478px;
+            font-size: 18px;
+            line-height: 26px;
+        }
+        .text_wrapp_items_second {
+            width: 395px;
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}
+
+#six_wrapp {
+    .seven_items_wrapp {
+        h2 {
+            width: 374px;
+            line-height: 43.2px;
+        }
+        p {
+            width: 475px;
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}
+
+#seven_wrapp {
+    .eaght_items_wrapp {
+        h2 {
+            width: 277px;
+            line-height: 43px;
+        }
+        p {
+            width: 470px;
+            line-height: 26px;
+        }
+        a {
+            width: 170px;
+        }
+    }
+    .just_bord {
+        width: 1290px;
+        border-bottom: 1px solid #CBD6E2;
+    }
+}
+
+#last_footer {
+    .footer_headers {
+        font-size: 16px;
+        line-height: 22px;
+        color: #222222;
+    }
+    ul.footer_first {
+        list-style-type: none;
+        li.footer_first_items {
+            font-size: 12px;
+            line-height: 19px;
+            color: #000000;
+            padding: 10px 0 0 0;
+            a {
+                font-size: 12px;
+                line-height: 19px;
+                color: #000000;
+                text-decoration: none;
+            }
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    .footer_description {
+        width: 836px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #AAAAAA;
+    }
+    .pci_img {
+        width: 175.99px;
+        height: 58.39px;
+    }
+}
